@@ -79,7 +79,7 @@ console.log("Matches:", match8);
 
 // Task 10: Write a regular expression to validate a URL. Log whether the URL is valid.
 const testurl = /^(https?:\/\/)?((([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,})|localhost)(:\d{1,5})?(\/[^\s]*)?$/;
-const url10="https://github.com/ANUBHAVDIXIT2004/30daysOfJs";
+const url10="https://github.com/Aastha304/git-javascript
 const isValid = testurl.test(url10);
 if (isValid) {
     console.log("URL is valid.");
